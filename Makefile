@@ -119,13 +119,13 @@ vendor_modify_jars := framework pm services telephony-common make android.policy
 ##############################################################################
 # baidu_remove_apps: those baidu apk you want remove 
 #-----------------------------------------------------------------------------
-# baidu_remove_apps := BaiduUserFeedback.apk
+baidu_remove_apps := BaiduMap
 
 ##############################################################################
 # baidu_modify_apps: which base the baidu's apk
 # just override the res, append *.smali.part
 #-----------------------------------------------------------------------------
-baidu_modify_apps := Phone
+baidu_modify_apps := Settings
 
 ##############################################################################
 # baidu_modify_jars: which base the baidu's jar
